@@ -17,3 +17,6 @@ I found an article
 and i also found what types of models i can use:
 1. stochastic (random)
 2. deterministic/compartmental
+https://www.aimspress.com/article/doi/10.3934/mbe.2021050?viewType=HTML#:~:text=The%20above%20results%20highlight%20the,extinction%20when%20R%200%20%3E%201%20.
+
+any mathematical model has to make assumptions. as predictions are made the model can be adjusted.
