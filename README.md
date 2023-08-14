@@ -13,10 +13,39 @@ Im starting off by refreshing what I need to learn. I'm going to choose a new mo
 
 I found an article
 > https://bmcinfectdis.biomedcentral.com/articles/10.1186/s12879-022-07472-6
+> which basically says different models sheds light on epidemics in different geographical areas.
 
 and i also found what types of models i can use:
 1. stochastic (random)
 2. deterministic/compartmental
-https://www.aimspress.com/article/doi/10.3934/mbe.2021050?viewType=HTML#:~:text=The%20above%20results%20highlight%20the,extinction%20when%20R%200%20%3E%201%20.
+> https://www.aimspress.com/article/doi/10.3934/mbe.2021050?viewType=HTML#:~:text=The%20above%20results%20highlight%20the,extinction%20when%20R%200%20%3E%201%20.
+> basically used the SEIR model (updated SIR model) to analyze and predict rates, but isnt comprehsive. Does not consider asymptomatic, symptomatic, hospitalized individuals and different age groups.
+> not comprehensive
 
-any mathematical model has to make assumptions. as predictions are made the model can be adjusted.
+### Basically,
+any mathematical model has to make assumptions. as predictions are made the model can be adjusted to fit different scenarious
+
+Based on this very general prelim info, I want to:
+1. find a model that can predict the course of a disease based on previous data points (trends in data)
+2. use a learning model to predict the course of a disease better.
+
+This will require:
+1. python, numpy, matlab, pandas
+2. data scrubbing + data analysis
+3. developing a learning model
+
+> ## thoughts:
+> after thinking about this more, im realizing the ML is a stretch. If i pursue that option ill have to create one, train one, and integrate it with a model that id code.
+> maybe i can just code the mathematical ep model using py libraries, and research how i can use ai to enhance it?
+> maybe use ai to take a look at the effectiveness of the model?
+> the questions i then would need answered is:
+> 1. what is the most comprehensive model of an epidemic
+> 2. what does the model mean? understand the model
+> 3. how do i code it? (python, numpy, matlab, pandas)
+> 4. can i make this look pretty and graph it out? (matplotlib)
+> 5. where can i find data to test if it works thru backtests/trials with historical data?
+> 6. is it possible to use ml or make a model that predicts an epidemic better?
+> 7. can i feed a learning model some data and ask it to predict what happens?
+> 8. how do i create such a learning model? how do i even start making an ml model?
+
+lots of thoughts, time to do. ill update these thoughts in order progressing from general overview of what i need to specifics.
