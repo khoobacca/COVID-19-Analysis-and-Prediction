@@ -17,7 +17,9 @@ I found an article
 
 and i also found what types of models i can use:
 1. stochastic (random)
+   a. manipulating the odds
 2. deterministic/compartmental
+   b. manipulating the strategy
 > https://www.aimspress.com/article/doi/10.3934/mbe.2021050?viewType=HTML#:~:text=The%20above%20results%20highlight%20the,extinction%20when%20R%200%20%3E%201%20.
 > basically used the SEIR model (updated SIR model) to analyze and predict rates, but isnt comprehsive. Does not consider asymptomatic, symptomatic, hospitalized individuals and different age groups.
 > not comprehensive
