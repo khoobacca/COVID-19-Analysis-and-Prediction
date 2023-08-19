@@ -112,15 +112,30 @@ assumptions:
 
 NOTE: after reading through VARS + PARAMETERS, i realize now why this model is effective for certain scenarious. India, UK, and USA all reported their COVID-19 infection numbers and provided data more or less willingly and transparently unklike China. This makes sense now that I'm writing and researching this but the data makes all the difference. Chinas data is garbage hence this model won't work for it.
 
+### parameter estimation
+the number of deaths (F), recovered (R), andquarantined (Q) and infected cases (I) are all available in Government published stat websites. Assume the government doesn't screw with numbers.
+
+These numbers mean that we have initial:
+(I0, R0, and F0) (infected, recovered, dead)
+
+using these numbers on hand, we can calculate:
+(E0, Q0, and A0) (exposed, quarantined, and asymptomatic)
+
+we calculate according to the initia spread of disease in the region and time in which it spread.
+
 
 ## other notes
 Using the vars and parameters and interaction chart, researchers used system of nonlinear ODE for this new SEIAQFR model.
 
+## assmptions
 The model makes seveeral assumptions:
 - there is a constant population (equal number deaths balance number of births
 	* most likely have to say that the model must be generated on an annual basis for prediction of a disease due to changine population numbers
 - homogenous population (each individual has the same opportunity to make contact with other individuals
 	* this means that heavily restricted places (that also skew data points by society type) will prob not allow as free movement
+
+- the government from which the data is collected doesnt screw with numbers. This is a decently big factor just because of the amount of countries this limits the model to.
+	* this is also shown by the relatively small amount of countries this was tested on.
 
 - the spread of the virus only accounts for human to human interactions and spread
 	* this discounts any animal to human contact
