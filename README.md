@@ -48,6 +48,6 @@ This will require:
 > 5. where can i find data to test if it works thru backtests/trials with historical data?
 > 6. is it possible to use ml or make a model that predicts an epidemic better?
 > 7. can i feed a learning model some data and ask it to predict what happens?
-> 8. how do i create such a learning model? how do i even start making an ml model?
+> 8. how do i create such a learning model? how do i even start making an ml model? is this somethign that is gonna hard AF to do? (probably)
 
 lots of thoughts, time to do. ill update these thoughts in order progressing from general overview of what i need to specifics.
