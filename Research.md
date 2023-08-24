@@ -127,7 +127,7 @@ we calculate according to the initia spread of disease in the region and time in
 ## other notes
 Using the vars and parameters and interaction chart, researchers used system of nonlinear ODE for this new SEIAQFR model.
 
-## assmptions
+## assumptions
 The model makes seveeral assumptions:
 - there is a constant population (equal number deaths balance number of births
 	* most likely have to say that the model must be generated on an annual basis for prediction of a disease due to changine population numbers
