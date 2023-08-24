@@ -145,4 +145,12 @@ The model makes seveeral assumptions:
 
 - individuals who have recovered cannot be infected again
 	* consider amending this??????????? what about something like the common flu, where some people catch it on an annual basis
-	* this is 
+
+## time to recovery
+for aymptomatics:
+
+t_sub_A = 1/(alpha) + 1/(gamma) + 1/(theta)
+
+for infected:
+
+t_sub_I = 1/(alpha) + 1/(phi)
