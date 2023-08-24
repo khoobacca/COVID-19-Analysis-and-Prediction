@@ -49,8 +49,8 @@ R(0): "R-naught", or reproductive rate
 
 > It is at this point I boarded so I had to switch to offline notes but i got the document and model done. I understand the basics now I just gotta code it up and see if it works haha.
 
-##From offline notes:
-damn maybe after writing this and creating the code I can publish a research paper with the unversity??????????
+## From offline notes:
+> damn maybe after writing this and creating the code I can publish a research paper with the unversity??????????
 
 from the intro, the gist of the paper is identifying the asymptomatic class to make the measure of their predictive model more accurate.
 
