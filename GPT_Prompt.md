@@ -87,5 +87,6 @@ here are 2 additional equations that relate some quantities to eachother, and ma
 
 time for asymptomatic recovery:
 1. t_asymp_recovery = 1/(alpha) + 1/(gamma) + 1/(theta)
+
 time for infected recovery:
-2. t_infec_recovery = 1/(alpha) + 1/(phi)
+3. t_infec_recovery = 1/(alpha) + 1/(phi)
