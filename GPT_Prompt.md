@@ -89,4 +89,4 @@ time for asymptomatic recovery:
 1. t_asymp_recovery = 1/(alpha) + 1/(gamma) + 1/(theta)
 
 time for infected recovery:
-3. t_infec_recovery = 1/(alpha) + 1/(phi)
+2. t_infec_recovery = 1/(alpha) + 1/(phi)
