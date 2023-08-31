@@ -7,17 +7,17 @@ based on the information provided, program the set of ordinary differential equa
 
 - make sure that the given set of python code takes into account the differential equations given below along with the information. The code should be able to take a large data set that consists of the number of fatalities, infections, and recovered individuals (and any other data that you would see fit) make sure the code is able to extrapolate the course of the epidemic using the set of different equations below, and predict to reasonable accuracy how the populations of the identified classes below will behave through visual graphs.
 
-Example:
+Example: (this is a portion of what i would expect from the code)
 
 input into code >
-death count: 1000 @ 4 months
-recovered: 10000 @ 4 months
-total population size: 30000 @ 4 months
+- death count: 1000 @ 4 months
+- recovered: 10000 @ 4 months
+- total population size: 30000 @ 4 months
 
 output > 
-graph of projected death count @ X months
-graph of projected recoveries @ X months
-graph of projected asymptomatic cases @ X months
+- graph of projected death count @ X months
+- graph of projected recoveries @ X months
+- graph of projected asymptomatic cases @ X months
 
 Here is the information:
 
