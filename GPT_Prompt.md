@@ -86,6 +86,6 @@ here are the set of differential equations as a function of time:
 here are 2 additional equations that relate some quantities to eachother, and may be useful:
 
 time for asymptomatic recovery:
-t_asymp_recovery = 1/(alpha) + 1/(gamma) + 1/(theta)
+1. t_asymp_recovery = 1/(alpha) + 1/(gamma) + 1/(theta)
 time for infected recovery:
-t_infec_recovery = 1/(alpha) + 1/(phi)
+2. t_infec_recovery = 1/(alpha) + 1/(phi)
