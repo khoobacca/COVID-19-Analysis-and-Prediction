@@ -73,13 +73,13 @@ The model makes seveeral assumptions:
 - individuals who have recovered cannot be infected again
 
 here are the set of differential equations as a function of time:
-d(S)/dt = (beta) * S(t) * I(t) / (N)
-d(E)/dt = (beta) * S(t) * I(t) / (N) - (alpha) * E(t)
-d(I)/dt = (alpha) * (p) * E(t) + (phi) * (1-q) * A(t) - (gamma) * I(t)
-d(A)/dt = (alpha) * (1-p) * E(t) - (phi) * A(t)
-d(Q)/dt = (gamma) * I(t) - (theta) * (1-x) * Q(t) - (delta) * (x) * Q(t)
-d(R)/dt = (phi) * (q) * A(t) + (theta) * (1-x) * Q(t)
-d(F)/dt = (delta) * (x) * Q(t)
+1. d(S)/dt = (beta) * S(t) * I(t) / (N)
+2. d(E)/dt = (beta) * S(t) * I(t) / (N) - (alpha) * E(t)
+3. d(I)/dt = (alpha) * (p) * E(t) + (phi) * (1-q) * A(t) - (gamma) * I(t)
+4. d(A)/dt = (alpha) * (1-p) * E(t) - (phi) * A(t)
+5. d(Q)/dt = (gamma) * I(t) - (theta) * (1-x) * Q(t) - (delta) * (x) * Q(t)
+6. d(R)/dt = (phi) * (q) * A(t) + (theta) * (1-x) * Q(t)
+7. d(F)/dt = (delta) * (x) * Q(t)
 
 , where S(t), E(t), I(t), A(t), Q(t), F(t), R(t) are the identified classes mentioned previously as a function of time the epidemic occurs for.
 
