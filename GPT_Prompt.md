@@ -9,12 +9,12 @@ based on the information provided, program the set of ordinary differential equa
 
 Example: (this is a portion of what i would expect from the code)
 
-input into code >
+input into code:
 - death count: 1000 @ 4 months
 - recovered: 10000 @ 4 months
 - total population size: 30000 @ 4 months
 
-output > 
+output:
 - graph of projected death count @ X months
 - graph of projected recoveries @ X months
 - graph of projected asymptomatic cases @ X months
@@ -23,7 +23,7 @@ Here is the information:
 
 - this program should include code that is able to run in a .ipynb file, commonly called "Jupyter Notebook".
 
-- the ultimate purpose of this model is too:
+the ultimate purpose of this model is too:
 1. predict disease characteristics
 2. impose containtment
 3. control and mitigate probably outbreaks through prediction
@@ -85,9 +85,6 @@ here are the set of differential equations as a function of time:
 
 here are 2 additional equations that relate some quantities to eachother, and may be useful:
 
-time for asymptomatic recovery:
+time for asymptomatic recovery, and time for infected recovery:
 1. t_asymp_recovery = 1/(alpha) + 1/(gamma) + 1/(theta)
-
-time for infected recovery:
-
 2. t_infec_recovery = 1/(alpha) + 1/(phi)
