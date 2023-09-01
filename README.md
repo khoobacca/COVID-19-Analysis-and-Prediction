@@ -51,3 +51,5 @@ This will require:
 > 8. how do i create such a learning model? how do i even start making an ml model? is this somethign that is gonna hard AF to do? (probably)
 
 lots of thoughts, time to do. ill update these thoughts in order progressing from general overview of what i need to specifics.
+
+when i was coding it turns out I need to use Julia, which is kindof a pain in the ass to install into vscode, so I ended up using a different diff equation solver (changed from diffeqpy to odeint using scipy)
