@@ -53,3 +53,47 @@ This will require:
 lots of thoughts, time to do. ill update these thoughts in order progressing from general overview of what i need to specifics.
 
 when i was coding it turns out I need to use Julia, which is kindof a pain in the ass to install into vscode, so I ended up using a different diff equation solver (changed from diffeqpy to odeint using scipy)
+
+### data scrubbing/analysis:
+
+now that ive made the basic program for solving the diff equations, i have to collect some data, preprocess it, and optimization.
+this involves:
+- normalizing, filtering, and transforming the data.
+
+i can get this data from a government website... will figure out how to do this once i get this code working
+maybe import a set of data into an array?... file streaming? data set will prob be too big so i'll see how it works.
+
+i just tested my code... i need some data now. im not going to worry abount scrubbing before i upload into an array just so i can see how this works... ill try and find some data in a csv format so i can parse it into the array in my code so i can actually do things with the data.
+
+im going to use pandas and load the data from someplace i find online. here is the source: 
+> https://www.kaggle.com/datasets/imdevskp/corona-virus-report?resource=download
+
+edit: damn i found the website kaggle. really fucking cool lmao. i heard of it before but this website is so helpful ill just link it and upload the data to this project file.
+
+This is so helpful... there is covid-19 infection information from everywhere. i mean every single country, every single place, everywhere. ill graph this out first and see what i can do with this.
+
+## heres the plan for now:
+im updating this as i go along but here:
+
+# what i have:
+- code to solve the SEIAQFR model solved using odeint
+- code to predictively model/graph the epidemic
+- data from every major country across the globe.
+
+# what i need:
+- code to scrub the data
+- scrub the data
+- model of the actual situation
+- ml model lmao
+
+# the overall goal:
+1. an actual model + graph using DATA of the COVID-19 epidemic
+2. an predictive model + graph using SEIAQFR of the COVID-19 epidemic (timeline can be adjjusted to predict epidemic)
+3. an predictive model + graph using MACHINE LEARNING of the COVID-19 epidemic (timeline can be adjusted to predict epidemic)
+
+i want to predict a disease with this model or machine learning USING the power of computing.
+
+## more updates
+
+DAMN i just uploaded a shit ton of data... now i gotta sift through it and see whats useful and what isnt
+also, this git project file is really messy so i need to clean it up as well
