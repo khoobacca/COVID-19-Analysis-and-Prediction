@@ -84,10 +84,11 @@ im updating this as i go along but here:
 - code to scrub the data
 - scrub the data
 - model of the actual situation
-- ml model lmao
+- code to analyze real world data after graphing and file streaming to find more accurate disease parameters for a more accurate SEIAQFR model to predict more accurately. basically to help fine tune the model even more.
+- ml model lmao??
 
 # the overall goal:
-1. an actual model + graph using DATA of the COVID-19 epidemic
+1. an actual model + graph using DATA of the COVID-19 epidemic that provides more accurate parameters for the predictive model using straight math and the ai
 2. an predictive model + graph using SEIAQFR of the COVID-19 epidemic (timeline can be adjjusted to predict epidemic)
 3. an predictive model + graph using MACHINE LEARNING of the COVID-19 epidemic (timeline can be adjusted to predict epidemic)
 
@@ -97,3 +98,5 @@ i want to predict a disease with this model or machine learning USING the power 
 
 DAMN i just uploaded a shit ton of data... now i gotta sift through it and see whats useful and what isnt
 also, this git project file is really messy so i need to clean it up as well
+
+Another realization... i can analyze real world data for this disease for more accurate parameter values for use within my model. ill add this to my plan. im kind adoing this as i go but cest la vie. im learning i guess haha
