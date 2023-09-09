@@ -67,8 +67,12 @@ i just tested my code... i need some data now. im not going to worry abount scru
 
 im going to use pandas and load the data from someplace i find online. here is the source: 
 > https://www.kaggle.com/datasets/imdevskp/corona-virus-report?resource=download
+> https://www.worldometers.info/coronavirus/
+> https://health-infobase.canada.ca/covid-19/current-situation.html
 
 edit: damn i found the website kaggle. really fucking cool lmao. i heard of it before but this website is so helpful ill just link it and upload the data to this project file.
+
+edit: i found another source on worldometer with some covid data I can use. I also found a website on the official canadian website with a csv with daily number of confirmed spots taken in hospital beds, which represent quarantined individuals. notice the total number of patients hospitalized does not match the total number of identified persons that day. obviously. lmao. we dont have enough space so i have to assume they actually quarantined at home? but no guarantee on that. so many moving parts but at least have more data. anyways ill download the csv and start graphing it in my code.
 
 This is so helpful... there is covid-19 infection information from everywhere. i mean every single country, every single place, everywhere. ill graph this out first and see what i can do with this.
 
@@ -100,3 +104,6 @@ DAMN i just uploaded a shit ton of data... now i gotta sift through it and see w
 also, this git project file is really messy so i need to clean it up as well
 
 Another realization... i can analyze real world data for this disease for more accurate parameter values for use within my model. ill add this to my plan. im kind adoing this as i go but cest la vie. im learning i guess haha
+
+## file streaming and csv parsing
+started to make some arrays to load the data into
