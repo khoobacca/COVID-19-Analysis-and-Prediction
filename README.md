@@ -51,3 +51,59 @@ This will require:
 > 8. how do i create such a learning model? how do i even start making an ml model? is this somethign that is gonna hard AF to do? (probably)
 
 lots of thoughts, time to do. ill update these thoughts in order progressing from general overview of what i need to specifics.
+
+when i was coding it turns out I need to use Julia, which is kindof a pain in the ass to install into vscode, so I ended up using a different diff equation solver (changed from diffeqpy to odeint using scipy)
+
+### data scrubbing/analysis:
+
+now that ive made the basic program for solving the diff equations, i have to collect some data, preprocess it, and optimization.
+this involves:
+- normalizing, filtering, and transforming the data.
+
+i can get this data from a government website... will figure out how to do this once i get this code working
+maybe import a set of data into an array?... file streaming? data set will prob be too big so i'll see how it works.
+
+i just tested my code... i need some data now. im not going to worry abount scrubbing before i upload into an array just so i can see how this works... ill try and find some data in a csv format so i can parse it into the array in my code so i can actually do things with the data.
+
+im going to use pandas and load the data from someplace i find online. here is the source: 
+> https://www.kaggle.com/datasets/imdevskp/corona-virus-report?resource=download
+> https://www.worldometers.info/coronavirus/
+> https://health-infobase.canada.ca/covid-19/current-situation.html
+
+edit: damn i found the website kaggle. really fucking cool lmao. i heard of it before but this website is so helpful ill just link it and upload the data to this project file.
+
+edit: i found another source on worldometer with some covid data I can use. I also found a website on the official canadian website with a csv with daily number of confirmed spots taken in hospital beds, which represent quarantined individuals. notice the total number of patients hospitalized does not match the total number of identified persons that day. obviously. lmao. we dont have enough space so i have to assume they actually quarantined at home? but no guarantee on that. so many moving parts but at least have more data. anyways ill download the csv and start graphing it in my code.
+
+This is so helpful... there is covid-19 infection information from everywhere. i mean every single country, every single place, everywhere. ill graph this out first and see what i can do with this.
+
+## heres the plan for now:
+im updating this as i go along but here:
+
+# what i have:
+- code to solve the SEIAQFR model solved using odeint
+- code to predictively model/graph the epidemic
+- data from every major country across the globe.
+
+# what i need:
+- code to scrub the data
+- scrub the data
+- model of the actual situation
+- code to analyze real world data after graphing and file streaming to find more accurate disease parameters for a more accurate SEIAQFR model to predict more accurately. basically to help fine tune the model even more.
+- ml model lmao??
+
+# the overall goal:
+1. an actual model + graph using DATA of the COVID-19 epidemic that provides more accurate parameters for the predictive model using straight math and the ai
+2. an predictive model + graph using SEIAQFR of the COVID-19 epidemic (timeline can be adjjusted to predict epidemic)
+3. an predictive model + graph using MACHINE LEARNING of the COVID-19 epidemic (timeline can be adjusted to predict epidemic)
+
+i want to predict a disease with this model or machine learning USING the power of computing.
+
+## more updates
+
+DAMN i just uploaded a shit ton of data... now i gotta sift through it and see whats useful and what isnt
+also, this git project file is really messy so i need to clean it up as well
+
+Another realization... i can analyze real world data for this disease for more accurate parameter values for use within my model. ill add this to my plan. im kind adoing this as i go but cest la vie. im learning i guess haha
+
+## file streaming and csv parsing
+started to make some arrays to load the data into
