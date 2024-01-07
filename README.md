@@ -107,3 +107,14 @@ Another realization... i can analyze real world data for this disease for more a
 
 ## file streaming and csv parsing
 started to make some arrays to load the data into
+
+## more things to do... 2 months later
+so school went really well. started on my drone design team and got a research position at CRN (composites resarch network) among things that I did. I still want to finish this project so during winter break when im not applying to internships for summertime, I'll be working on an ecommerce project with my friend, and building a portfolio website maybe (goes hand in hand with ecomm, cuz we need a website anyways so better to practice).
+
+believe it or not, ecommerce and starting an online business is significantly easier than this math stuff. never really my strong suit but i still want to finish it.
+
+...
+
+after catching up to where I left off, I'm going to end up analyzing the real world data I left off with and finding parameters for my own SEIAQFR model to be based upon. for me to do this, I'm going to scrub the data.
+
+Ill just start with that right now, as I've already plotted the real world data and made a basic SEIAQFR model with assumed values and constants/parameter values. If the initial conditions and the parameters aren't correct then my model will be massively off.
